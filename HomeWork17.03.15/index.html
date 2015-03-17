@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+function val() {
+    var x = eval(document.getElementById("entry").value);
+    document.getElementById("output").innerHTML = x;
+}
+</script>
+
+First Name: <input type="text" id="entry">
+<button onclick="val()">Eval result</button>
+<p id="output"></p>
+
+</body>
+</html>
